@@ -31,7 +31,7 @@ koa-router has been sold, so fork a copy before the code is changed
 Install using [npm](https://www.npmjs.org/):
 
 ```sh
-npm install koa-router
+npm install @zhangfuxing/koa-router
 ```
 
 ## API Reference
@@ -72,7 +72,7 @@ Basic usage:
 
 ```javascript
 var Koa = require('koa');
-var Router = require('koa-router');
+var Router = require('@zhangfuxing/koa-router');
 
 var app = new Koa();
 var router = new Router();
@@ -280,7 +280,7 @@ with `405 Method Not Allowed` and `501 Not Implemented` as appropriate.
 **Example**  
 ```javascript
 var Koa = require('koa');
-var Router = require('koa-router');
+var Router = require('@zhangfuxing/koa-router');
 
 var app = new Koa();
 var router = new Router();
@@ -293,7 +293,7 @@ app.use(router.allowedMethods());
 
 ```javascript
 var Koa = require('koa');
-var Router = require('koa-router');
+var Router = require('@zhangfuxing/koa-router');
 var Boom = require('boom');
 
 var app = new Koa();
