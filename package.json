@@ -1,9 +1,9 @@
 {
-  "name": "koa-router",
+  "name": "@zhangfuxing/koa-router",
   "description": "Router middleware for koa. Provides RESTful resource routing.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexmingoia/koa-router.git"
+    "url": "git+https://github.com/fuxingZhang/koa-router.git"
   },
   "main": "lib/router.js",
   "files": [
